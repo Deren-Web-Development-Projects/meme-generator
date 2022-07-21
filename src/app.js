@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "./components/header"
+import Meme from "./components/Meme";
+import "./styles/mainStyles.css";
 
 export default function App() {
     return (
         <div>
-        <Header />
-        <h1>Hello Surface Dwellers</h1>
+            <Header />
+            <Meme />
         </div>
     );
 }

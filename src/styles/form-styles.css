@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+.form-input-item {
+    height: 3rem;
+    width: 45%;
+    border-radius: 5px;
+    text-indent: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.form-button {
+    margin-top: 20px;
+    height: 3rem;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+}

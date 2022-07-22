@@ -4,6 +4,9 @@ import Meme from "./components/Meme";
 import "./styles/mainStyles.css";
 
 export default function App() {
+
+    
+
     return (
         <div>
             <Header />

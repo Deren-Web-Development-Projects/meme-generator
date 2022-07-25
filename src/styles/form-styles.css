@@ -39,3 +39,8 @@
     font-size: 1.3rem;
     letter-spacing: 0.3rem;
 }
+
+.form-image {
+    margin-top: 35px;
+    max-width: 60%;
+}  
